@@ -18,10 +18,12 @@ const routerObject = createBrowserRouter(
 
 
 function App() {
+  return(
+    <>
+      <RouterProvider router={routerObject}></RouterProvider>
+    </>
+  )
   
-  <>
-    <RouterProvider router={routerObject}></RouterProvider>
-  </>
 }
 
 export default App
